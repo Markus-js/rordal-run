@@ -1,0 +1,12 @@
+.devider {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    width: 70,73%;
+    height: 586px;
+
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+

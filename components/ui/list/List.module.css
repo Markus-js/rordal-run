@@ -1,0 +1,22 @@
+
+.sortList img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    text-align: start;
+}
+
+.list button {
+    cursor: pointer;
+}
+
+.list ul li:nth-child( odd ) {
+    background: rgb(214, 214, 214);  
+}

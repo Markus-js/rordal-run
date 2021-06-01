@@ -1,0 +1,22 @@
+
+
+.aside {
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    position: relative;
+    height: 100%;
+    background: purple;
+}
+
+
+
+.aside img {
+    width: 197px;
+    margin-top: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

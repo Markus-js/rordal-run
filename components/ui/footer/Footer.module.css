@@ -1,0 +1,22 @@
+
+.footer {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    border-top: 2px solid purple;
+    background: transparent;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer  ul {
+    color:purple;
+    font-size: 18px;
+}
+
+.flexWrapper {
+    display: flex;
+    gap: 20px;
+    
+}

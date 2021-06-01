@@ -1,8 +1,37 @@
+/* 
+Titillium Web, 24pt, Light
+Titillium Web, 50pt, Bold
+Titillium Web, 130pt Black 
+*/
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/fonts/Titillium/TitilliumWeb-Black.ttf");
+  font-style: bold;
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/fonts/Titillium/TitilliumWeb-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/fonts/Titillium/TitilliumWeb-Light.ttf");
+  font-style: small;
+  font-weight: 300;
+  font-display: swap;
+}
+
 html,
 body {
+  
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Titillium Web, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +42,50 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  font-size: 24px;   
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 47px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background: none;
+}
+
+.btn-link {
+  color: #99333F ;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+.btn {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background: purple;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contentContainerMargin {
+  margin: 40px;
 }
